@@ -14,7 +14,7 @@ test = {
         },
         {
           'code': r"""
-          >>> top_10_movies.select('Rating', 'Name').sort('Name')
+          >>> top_10_movies.select('Rating', 'Name')
           Rating | Name
           9.2    | The Shawshank Redemption (1994)
           9.2    | The Godfather (1972)
