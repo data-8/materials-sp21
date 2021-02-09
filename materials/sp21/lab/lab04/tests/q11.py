@@ -12,15 +12,6 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        },
-        {
-          'code': r"""
-          >>> # Make sure you are passing in the proper argument!;
-          >>> twenty_percent == 20.0
-          True
-          """,
-          'hidden': False,
-          'locked': False
         }
       ],
       'scored': True,
