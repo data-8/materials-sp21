@@ -1,5 +1,5 @@
 test = {
-  'name': 'q5_1',
+  'name': '',
   'points': 1,
   'suites': [
     {
@@ -8,12 +8,6 @@ test = {
           'code': r"""
           >>> np.allclose([below_3_r, above_3_r], [0.290189526493, 0.372782225571])
           True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
           >>> [below_3.num_rows, above_3.num_rows]
           [97, 175]
           """,

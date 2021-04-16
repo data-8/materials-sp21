@@ -1,5 +1,5 @@
 test = {
-  'name': 'q2_1',
+  'name': '',
   'points': 1,
   'suites': [
     {
@@ -8,15 +8,8 @@ test = {
           'code': r"""
           >>> (slope*13 - 100)/98 <= 0.5
           True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> # Make sure you are plugging in the SD_x and SD_y in the correct spots!;
-          >>> np.round(slope, 4) == 10.7296
-          True
+          >>> (18 + intercept*(-4)) / 201 >= 0.3
+          False
           """,
           'hidden': False,
           'locked': False

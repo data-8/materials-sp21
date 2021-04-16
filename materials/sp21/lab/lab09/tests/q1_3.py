@@ -1,5 +1,5 @@
 test = {
-  'name': 'q1_3',
+  'name': '',
   'points': 1,
   'suites': [
     {
@@ -8,20 +8,8 @@ test = {
           'code': r"""
           >>> abs(sum(faithful_standard.column(0))) <= 1e-8
           True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
           >>> int(round(duration_std))
           1
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
           >>> int(round(wait_std))
           14
           """,
